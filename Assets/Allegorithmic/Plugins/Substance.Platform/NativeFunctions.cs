@@ -544,7 +544,10 @@ namespace Substance.Platform
 
             cppShutdownSubstanceDelegate function = DLLHelpers.GetFunction(
                 myName, typeof(cppShutdownSubstanceDelegate)) as cppShutdownSubstanceDelegate;
-            int result = (int)function.Invoke();
+
+            int result = 0;
+            try { result = (int)function.Invoke(); }
+            catch {}
 
             DLLHelpers.UnloadDLL();
 
