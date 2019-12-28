@@ -1,0 +1,1210 @@
+fileFormatVersion: 2
+guid: bebd23504c9b381428bd3a3fc1f3ed31
+ScriptedImporter:
+  fileIDToRecycleName:
+    2100000: Biome_Dust
+    2100002: Biome_Dust_1
+    2100004: Biome_Dust_2
+    2100006: Biome_Dust_3
+    2100008: Biome_Dust_4
+    2100010: Biome_Dust_5
+    2100012: Biome_Dust_6
+    2100014: Biome_Dust_7
+    2800000: Biome_Dust - diffuse
+    2800002: Biome_Dust - any
+    2800004: Biome_Dust_1 - diffuse
+    2800006: Biome_Dust_1 - any
+    2800008: Biome_Dust_2 - diffuse
+    2800010: Biome_Dust_2 - any
+    2800012: Biome_Dust_3 - diffuse
+    2800014: Biome_Dust_3 - any
+    2800016: Biome_Dust_4 - diffuse
+    2800018: Biome_Dust_4 - any
+    2800020: Biome_Dust_5 - diffuse
+    2800022: Biome_Dust_5 - any
+    2800024: Biome_Dust_6 - diffuse
+    2800026: Biome_Dust_6 - any
+    2800028: Biome_Dust_7 - diffuse
+    2800030: Biome_Dust_7 - any
+    11400000: sbsar
+    11400002: graph0
+    11400004: graph1
+    11400006: graph2
+    11400008: graph3
+    11400010: graph4
+    11400012: graph5
+    11400014: graph6
+    11400016: graph7
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 232528478, guid: 43a8bbf65be290d44ba52b94476242b9, type: 3}
+  version: 24
+  mGraphInstanceData:
+  - graphLabel: Biome_Dust
+    prototypeName: Biome_Dust
+    graphDescIndex: 0
+    generateAllOutputs: 1
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://Biome_Dust\" label=\"\" >\n  <presetinput
+      identifier=\"$outputsize\" uid=\"1079931018\" type=\"8\" value=\"11,11\" />\n
+      \ <presetinput identifier=\"$randomseed\" uid=\"388785880\" type=\"4\" value=\"51\"
+      />\n  <presetinput identifier=\"Biome_Coverage_Warp\" uid=\"867174081\" type=\"0\"
+      value=\"8.28971\" />\n  <presetinput identifier=\"Biome_Coverage_Balance\" uid=\"867179814\"
+      type=\"0\" value=\"0.626944\" />\n  <presetinput identifier=\"Biome_Coverage_Contrast\"
+      uid=\"867179976\" type=\"0\" value=\"0.513348\" />\n  <presetinput identifier=\"Biome_Hue\"
+      uid=\"867176810\" type=\"0\" value=\"0.492006\" />\n  <presetinput identifier=\"Biome_Saturation\"
+      uid=\"867177120\" type=\"0\" value=\"0.497129\" />\n  <presetinput identifier=\"Biome_Brightness\"
+      uid=\"867177842\" type=\"0\" value=\"0.483994\" />\n  <presetinput identifier=\"Diffuse_Strength_Craters\"
+      uid=\"867183631\" type=\"0\" value=\"0.0737902\" />\n  <presetinput identifier=\"Normal_Strength_Craters\"
+      uid=\"867184474\" type=\"0\" value=\"0.483971\" />\n  <presetinput identifier=\"Normal_Strength_Surface\"
+      uid=\"867184555\" type=\"0\" value=\"0.0531818\" />\n  <presetinput identifier=\"Craters_Small\"
+      uid=\"867180807\" type=\"0\" value=\"0.77951\" />\n  <presetinput identifier=\"Craters_Medium\"
+      uid=\"867180982\" type=\"0\" value=\"0.884229\" />\n  <presetinput identifier=\"Craters_Large\"
+      uid=\"867180698\" type=\"0\" value=\"0.71942\" />\n  <presetinput identifier=\"Crater_Erosion\"
+      uid=\"867393485\" type=\"0\" value=\"0.340198\" />\n  <presetinput identifier=\"Normal_Strength_Canyons\"
+      uid=\"867393030\" type=\"0\" value=\"0.156414\" />\n </sbspreset>\n"
+    shaderName: Standard
+    materialProperties:
+      shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+      shaderKeywords: _MAINTEX _UNKNOWN_ANY
+      lightmapFlags: 4
+      texEnvs:
+      - name: _BumpMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailAlbedoMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailMask
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailNormalMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _EmissionMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _MainTex
+        texture: {fileID: 2800000, guid: bebd23504c9b381428bd3a3fc1f3ed31, type: 3}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _MetallicGlossMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _OcclusionMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _ParallaxMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      floats:
+      - name: _BumpScale
+        float: 1
+      - name: _Cutoff
+        float: 0.5
+      - name: _DetailNormalMapScale
+        float: 1
+      - name: _DstBlend
+        float: 0
+      - name: _GlossMapScale
+        float: 1
+      - name: _Glossiness
+        float: 0.5
+      - name: _GlossyReflections
+        float: 1
+      - name: _Metallic
+        float: 0
+      - name: _Mode
+        float: 0
+      - name: _OcclusionStrength
+        float: 1
+      - name: _Parallax
+        float: 0.02
+      - name: _SmoothnessTextureChannel
+        float: 0
+      - name: _SpecularHighlights
+        float: 1
+      - name: _SrcBlend
+        float: 1
+      - name: _UVSec
+        float: 0
+      - name: _ZWrite
+        float: 1
+      colors:
+      - name: _Color
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - name: _EmissionColor
+        color: {r: 0, g: 0, b: 0, a: 1}
+    outputDescList:
+    - outputName: diffuse
+      identifier: Diffuse
+      usageName: diffuse
+      channelStr: diffuse
+      label: Diffuse
+      usage: 0
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: any
+      identifier: Normal
+      usageName: any
+      channelStr: any
+      label: Normal
+      usage: 27
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    texturePackingList:
+    - targetName: diffuse
+      components:
+      - sourceName: diffuse
+        from: 0
+        to: 3
+    - targetName: any
+      components:
+      - sourceName: any
+        from: 0
+        to: 3
+    textureParameters:
+    - textureName: Biome_Dust - diffuse
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Biome_Dust - any
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList: []
+    inputTextureMap: []
+    targetSettingList:
+    - label: Default
+      bOverride: 0
+      bLockRatio: 1
+      textureWidth: 2048
+      textureHeight: 2048
+      textureFormatMode: 0
+      normalCompressed: 0
+      bGenerateOnLoad: 1
+    material: {fileID: 2100000, guid: bebd23504c9b381428bd3a3fc1f3ed31, type: 3}
+    generatedTextures:
+    - {fileID: 2800000, guid: bebd23504c9b381428bd3a3fc1f3ed31, type: 3}
+    - {fileID: 2800002, guid: bebd23504c9b381428bd3a3fc1f3ed31, type: 3}
+  - graphLabel: Biome_Dust_1
+    prototypeName: Biome_Dust
+    graphDescIndex: 0
+    generateAllOutputs: 1
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://Biome_Dust\" label=\"\" >\n  <presetinput
+      identifier=\"$outputsize\" uid=\"1079931018\" type=\"8\" value=\"11,11\" />\n
+      \ <presetinput identifier=\"$randomseed\" uid=\"388785880\" type=\"4\" value=\"234\"
+      />\n  <presetinput identifier=\"Biome_Coverage_Warp\" uid=\"867174081\" type=\"0\"
+      value=\"8.15715\" />\n  <presetinput identifier=\"Biome_Coverage_Balance\" uid=\"867179814\"
+      type=\"0\" value=\"0.325759\" />\n  <presetinput identifier=\"Biome_Coverage_Contrast\"
+      uid=\"867179976\" type=\"0\" value=\"0.104257\" />\n  <presetinput identifier=\"Biome_Hue\"
+      uid=\"867176810\" type=\"0\" value=\"0.467752\" />\n  <presetinput identifier=\"Biome_Saturation\"
+      uid=\"867177120\" type=\"0\" value=\"0.487025\" />\n  <presetinput identifier=\"Biome_Brightness\"
+      uid=\"867177842\" type=\"0\" value=\"0.495282\" />\n  <presetinput identifier=\"Diffuse_Strength_Craters\"
+      uid=\"867183631\" type=\"0\" value=\"0.739389\" />\n  <presetinput identifier=\"Normal_Strength_Craters\"
+      uid=\"867184474\" type=\"0\" value=\"0.575287\" />\n  <presetinput identifier=\"Normal_Strength_Surface\"
+      uid=\"867184555\" type=\"0\" value=\"0.283033\" />\n  <presetinput identifier=\"Craters_Small\"
+      uid=\"867180807\" type=\"0\" value=\"0.872081\" />\n  <presetinput identifier=\"Craters_Medium\"
+      uid=\"867180982\" type=\"0\" value=\"0.0412145\" />\n  <presetinput identifier=\"Craters_Large\"
+      uid=\"867180698\" type=\"0\" value=\"0.389697\" />\n  <presetinput identifier=\"Crater_Erosion\"
+      uid=\"867393485\" type=\"0\" value=\"0.268691\" />\n  <presetinput identifier=\"Normal_Strength_Canyons\"
+      uid=\"867393030\" type=\"0\" value=\"0.0489623\" />\n </sbspreset>\n"
+    shaderName: Standard
+    materialProperties:
+      shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+      shaderKeywords: _MAINTEX _UNKNOWN_ANY
+      lightmapFlags: 4
+      texEnvs:
+      - name: _BumpMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailAlbedoMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailMask
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailNormalMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _EmissionMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _MainTex
+        texture: {fileID: 2800004, guid: bebd23504c9b381428bd3a3fc1f3ed31, type: 3}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _MetallicGlossMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _OcclusionMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _ParallaxMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      floats:
+      - name: _BumpScale
+        float: 1
+      - name: _Cutoff
+        float: 0.5
+      - name: _DetailNormalMapScale
+        float: 1
+      - name: _DstBlend
+        float: 0
+      - name: _GlossMapScale
+        float: 1
+      - name: _Glossiness
+        float: 0.5
+      - name: _GlossyReflections
+        float: 1
+      - name: _Metallic
+        float: 0
+      - name: _Mode
+        float: 0
+      - name: _OcclusionStrength
+        float: 1
+      - name: _Parallax
+        float: 0.02
+      - name: _SmoothnessTextureChannel
+        float: 0
+      - name: _SpecularHighlights
+        float: 1
+      - name: _SrcBlend
+        float: 1
+      - name: _UVSec
+        float: 0
+      - name: _ZWrite
+        float: 1
+      colors:
+      - name: _Color
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - name: _EmissionColor
+        color: {r: 0, g: 0, b: 0, a: 1}
+    outputDescList:
+    - outputName: diffuse
+      identifier: Diffuse
+      usageName: diffuse
+      channelStr: diffuse
+      label: Diffuse
+      usage: 0
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: any
+      identifier: Normal
+      usageName: any
+      channelStr: any
+      label: Normal
+      usage: 27
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    texturePackingList:
+    - targetName: diffuse
+      components:
+      - sourceName: diffuse
+        from: 0
+        to: 3
+    - targetName: any
+      components:
+      - sourceName: any
+        from: 0
+        to: 3
+    textureParameters:
+    - textureName: Biome_Dust_1 - diffuse
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Biome_Dust_1 - any
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList: []
+    inputTextureMap: []
+    targetSettingList:
+    - label: Default
+      bOverride: 0
+      bLockRatio: 1
+      textureWidth: 2048
+      textureHeight: 2048
+      textureFormatMode: 0
+      normalCompressed: 0
+      bGenerateOnLoad: 1
+    material: {fileID: 2100002, guid: bebd23504c9b381428bd3a3fc1f3ed31, type: 3}
+    generatedTextures:
+    - {fileID: 2800004, guid: bebd23504c9b381428bd3a3fc1f3ed31, type: 3}
+    - {fileID: 2800006, guid: bebd23504c9b381428bd3a3fc1f3ed31, type: 3}
+  - graphLabel: Biome_Dust_2
+    prototypeName: Biome_Dust
+    graphDescIndex: 0
+    generateAllOutputs: 1
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://Biome_Dust\" label=\"\" >\n  <presetinput
+      identifier=\"$outputsize\" uid=\"1079931018\" type=\"8\" value=\"9,9\" />\n
+      </sbspreset>\n"
+    shaderName: Standard
+    materialProperties:
+      shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+      shaderKeywords: _MAINTEX _UNKNOWN_ANY
+      lightmapFlags: 4
+      texEnvs:
+      - name: _BumpMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailAlbedoMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailMask
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailNormalMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _EmissionMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _MainTex
+        texture: {fileID: 2800008, guid: bebd23504c9b381428bd3a3fc1f3ed31, type: 3}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _MetallicGlossMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _OcclusionMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _ParallaxMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      floats:
+      - name: _BumpScale
+        float: 1
+      - name: _Cutoff
+        float: 0.5
+      - name: _DetailNormalMapScale
+        float: 1
+      - name: _DstBlend
+        float: 0
+      - name: _GlossMapScale
+        float: 1
+      - name: _Glossiness
+        float: 0.5
+      - name: _GlossyReflections
+        float: 1
+      - name: _Metallic
+        float: 0
+      - name: _Mode
+        float: 0
+      - name: _OcclusionStrength
+        float: 1
+      - name: _Parallax
+        float: 0.02
+      - name: _SmoothnessTextureChannel
+        float: 0
+      - name: _SpecularHighlights
+        float: 1
+      - name: _SrcBlend
+        float: 1
+      - name: _UVSec
+        float: 0
+      - name: _ZWrite
+        float: 1
+      colors:
+      - name: _Color
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - name: _EmissionColor
+        color: {r: 0, g: 0, b: 0, a: 1}
+    outputDescList:
+    - outputName: diffuse
+      identifier: Diffuse
+      usageName: diffuse
+      channelStr: diffuse
+      label: Diffuse
+      usage: 0
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: any
+      identifier: Normal
+      usageName: any
+      channelStr: any
+      label: Normal
+      usage: 27
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    texturePackingList:
+    - targetName: diffuse
+      components:
+      - sourceName: diffuse
+        from: 0
+        to: 3
+    - targetName: any
+      components:
+      - sourceName: any
+        from: 0
+        to: 3
+    textureParameters:
+    - textureName: Biome_Dust_2 - diffuse
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Biome_Dust_2 - any
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList: []
+    inputTextureMap: []
+    targetSettingList:
+    - label: Default
+      bOverride: 0
+      bLockRatio: 1
+      textureWidth: 512
+      textureHeight: 512
+      textureFormatMode: 0
+      normalCompressed: 0
+      bGenerateOnLoad: 1
+    material: {fileID: 2100004, guid: bebd23504c9b381428bd3a3fc1f3ed31, type: 3}
+    generatedTextures:
+    - {fileID: 2800008, guid: bebd23504c9b381428bd3a3fc1f3ed31, type: 3}
+    - {fileID: 2800010, guid: bebd23504c9b381428bd3a3fc1f3ed31, type: 3}
+  - graphLabel: Biome_Dust_3
+    prototypeName: Biome_Dust
+    graphDescIndex: 0
+    generateAllOutputs: 1
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://Biome_Dust\" label=\"\" >\n  <presetinput
+      identifier=\"$outputsize\" uid=\"1079931018\" type=\"8\" value=\"9,9\" />\n
+      </sbspreset>\n"
+    shaderName: Standard
+    materialProperties:
+      shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+      shaderKeywords: _MAINTEX _UNKNOWN_ANY
+      lightmapFlags: 4
+      texEnvs:
+      - name: _BumpMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailAlbedoMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailMask
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailNormalMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _EmissionMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _MainTex
+        texture: {fileID: 2800012, guid: bebd23504c9b381428bd3a3fc1f3ed31, type: 3}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _MetallicGlossMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _OcclusionMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _ParallaxMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      floats:
+      - name: _BumpScale
+        float: 1
+      - name: _Cutoff
+        float: 0.5
+      - name: _DetailNormalMapScale
+        float: 1
+      - name: _DstBlend
+        float: 0
+      - name: _GlossMapScale
+        float: 1
+      - name: _Glossiness
+        float: 0.5
+      - name: _GlossyReflections
+        float: 1
+      - name: _Metallic
+        float: 0
+      - name: _Mode
+        float: 0
+      - name: _OcclusionStrength
+        float: 1
+      - name: _Parallax
+        float: 0.02
+      - name: _SmoothnessTextureChannel
+        float: 0
+      - name: _SpecularHighlights
+        float: 1
+      - name: _SrcBlend
+        float: 1
+      - name: _UVSec
+        float: 0
+      - name: _ZWrite
+        float: 1
+      colors:
+      - name: _Color
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - name: _EmissionColor
+        color: {r: 0, g: 0, b: 0, a: 1}
+    outputDescList:
+    - outputName: diffuse
+      identifier: Diffuse
+      usageName: diffuse
+      channelStr: diffuse
+      label: Diffuse
+      usage: 0
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: any
+      identifier: Normal
+      usageName: any
+      channelStr: any
+      label: Normal
+      usage: 27
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    texturePackingList:
+    - targetName: diffuse
+      components:
+      - sourceName: diffuse
+        from: 0
+        to: 3
+    - targetName: any
+      components:
+      - sourceName: any
+        from: 0
+        to: 3
+    textureParameters:
+    - textureName: Biome_Dust_3 - diffuse
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Biome_Dust_3 - any
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList: []
+    inputTextureMap: []
+    targetSettingList:
+    - label: Default
+      bOverride: 0
+      bLockRatio: 1
+      textureWidth: 512
+      textureHeight: 512
+      textureFormatMode: 0
+      normalCompressed: 0
+      bGenerateOnLoad: 1
+    material: {fileID: 2100006, guid: bebd23504c9b381428bd3a3fc1f3ed31, type: 3}
+    generatedTextures:
+    - {fileID: 2800012, guid: bebd23504c9b381428bd3a3fc1f3ed31, type: 3}
+    - {fileID: 2800014, guid: bebd23504c9b381428bd3a3fc1f3ed31, type: 3}
+  - graphLabel: Biome_Dust_4
+    prototypeName: Biome_Dust
+    graphDescIndex: 0
+    generateAllOutputs: 1
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://Biome_Dust\" label=\"\" >\n  <presetinput
+      identifier=\"$outputsize\" uid=\"1079931018\" type=\"8\" value=\"9,9\" />\n
+      </sbspreset>\n"
+    shaderName: Standard
+    materialProperties:
+      shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+      shaderKeywords: _MAINTEX _UNKNOWN_ANY
+      lightmapFlags: 4
+      texEnvs:
+      - name: _BumpMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailAlbedoMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailMask
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailNormalMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _EmissionMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _MainTex
+        texture: {fileID: 2800016, guid: bebd23504c9b381428bd3a3fc1f3ed31, type: 3}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _MetallicGlossMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _OcclusionMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _ParallaxMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      floats:
+      - name: _BumpScale
+        float: 1
+      - name: _Cutoff
+        float: 0.5
+      - name: _DetailNormalMapScale
+        float: 1
+      - name: _DstBlend
+        float: 0
+      - name: _GlossMapScale
+        float: 1
+      - name: _Glossiness
+        float: 0.5
+      - name: _GlossyReflections
+        float: 1
+      - name: _Metallic
+        float: 0
+      - name: _Mode
+        float: 0
+      - name: _OcclusionStrength
+        float: 1
+      - name: _Parallax
+        float: 0.02
+      - name: _SmoothnessTextureChannel
+        float: 0
+      - name: _SpecularHighlights
+        float: 1
+      - name: _SrcBlend
+        float: 1
+      - name: _UVSec
+        float: 0
+      - name: _ZWrite
+        float: 1
+      colors:
+      - name: _Color
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - name: _EmissionColor
+        color: {r: 0, g: 0, b: 0, a: 1}
+    outputDescList:
+    - outputName: diffuse
+      identifier: Diffuse
+      usageName: diffuse
+      channelStr: diffuse
+      label: Diffuse
+      usage: 0
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: any
+      identifier: Normal
+      usageName: any
+      channelStr: any
+      label: Normal
+      usage: 27
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    texturePackingList:
+    - targetName: diffuse
+      components:
+      - sourceName: diffuse
+        from: 0
+        to: 3
+    - targetName: any
+      components:
+      - sourceName: any
+        from: 0
+        to: 3
+    textureParameters:
+    - textureName: Biome_Dust_4 - diffuse
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Biome_Dust_4 - any
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList: []
+    inputTextureMap: []
+    targetSettingList:
+    - label: Default
+      bOverride: 0
+      bLockRatio: 1
+      textureWidth: 512
+      textureHeight: 512
+      textureFormatMode: 0
+      normalCompressed: 0
+      bGenerateOnLoad: 1
+    material: {fileID: 2100008, guid: bebd23504c9b381428bd3a3fc1f3ed31, type: 3}
+    generatedTextures:
+    - {fileID: 2800016, guid: bebd23504c9b381428bd3a3fc1f3ed31, type: 3}
+    - {fileID: 2800018, guid: bebd23504c9b381428bd3a3fc1f3ed31, type: 3}
+  - graphLabel: Biome_Dust_5
+    prototypeName: Biome_Dust
+    graphDescIndex: 0
+    generateAllOutputs: 1
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://Biome_Dust\" label=\"\" >\n  <presetinput
+      identifier=\"$outputsize\" uid=\"1079931018\" type=\"8\" value=\"9,9\" />\n
+      </sbspreset>\n"
+    shaderName: Standard
+    materialProperties:
+      shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+      shaderKeywords: _MAINTEX _UNKNOWN_ANY
+      lightmapFlags: 4
+      texEnvs:
+      - name: _BumpMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailAlbedoMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailMask
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailNormalMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _EmissionMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _MainTex
+        texture: {fileID: 2800020, guid: bebd23504c9b381428bd3a3fc1f3ed31, type: 3}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _MetallicGlossMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _OcclusionMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _ParallaxMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      floats:
+      - name: _BumpScale
+        float: 1
+      - name: _Cutoff
+        float: 0.5
+      - name: _DetailNormalMapScale
+        float: 1
+      - name: _DstBlend
+        float: 0
+      - name: _GlossMapScale
+        float: 1
+      - name: _Glossiness
+        float: 0.5
+      - name: _GlossyReflections
+        float: 1
+      - name: _Metallic
+        float: 0
+      - name: _Mode
+        float: 0
+      - name: _OcclusionStrength
+        float: 1
+      - name: _Parallax
+        float: 0.02
+      - name: _SmoothnessTextureChannel
+        float: 0
+      - name: _SpecularHighlights
+        float: 1
+      - name: _SrcBlend
+        float: 1
+      - name: _UVSec
+        float: 0
+      - name: _ZWrite
+        float: 1
+      colors:
+      - name: _Color
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - name: _EmissionColor
+        color: {r: 0, g: 0, b: 0, a: 1}
+    outputDescList:
+    - outputName: diffuse
+      identifier: Diffuse
+      usageName: diffuse
+      channelStr: diffuse
+      label: Diffuse
+      usage: 0
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: any
+      identifier: Normal
+      usageName: any
+      channelStr: any
+      label: Normal
+      usage: 27
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    texturePackingList:
+    - targetName: diffuse
+      components:
+      - sourceName: diffuse
+        from: 0
+        to: 3
+    - targetName: any
+      components:
+      - sourceName: any
+        from: 0
+        to: 3
+    textureParameters:
+    - textureName: Biome_Dust_5 - diffuse
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Biome_Dust_5 - any
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList: []
+    inputTextureMap: []
+    targetSettingList:
+    - label: Default
+      bOverride: 0
+      bLockRatio: 1
+      textureWidth: 512
+      textureHeight: 512
+      textureFormatMode: 0
+      normalCompressed: 0
+      bGenerateOnLoad: 1
+    material: {fileID: 2100010, guid: bebd23504c9b381428bd3a3fc1f3ed31, type: 3}
+    generatedTextures:
+    - {fileID: 2800020, guid: bebd23504c9b381428bd3a3fc1f3ed31, type: 3}
+    - {fileID: 2800022, guid: bebd23504c9b381428bd3a3fc1f3ed31, type: 3}
+  - graphLabel: Biome_Dust_6
+    prototypeName: Biome_Dust
+    graphDescIndex: 0
+    generateAllOutputs: 1
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://Biome_Dust\" label=\"\" >\n  <presetinput
+      identifier=\"$outputsize\" uid=\"1079931018\" type=\"8\" value=\"9,9\" />\n
+      </sbspreset>\n"
+    shaderName: Standard
+    materialProperties:
+      shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+      shaderKeywords: _MAINTEX _UNKNOWN_ANY
+      lightmapFlags: 4
+      texEnvs:
+      - name: _BumpMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailAlbedoMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailMask
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailNormalMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _EmissionMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _MainTex
+        texture: {fileID: 2800024, guid: bebd23504c9b381428bd3a3fc1f3ed31, type: 3}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _MetallicGlossMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _OcclusionMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _ParallaxMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      floats:
+      - name: _BumpScale
+        float: 1
+      - name: _Cutoff
+        float: 0.5
+      - name: _DetailNormalMapScale
+        float: 1
+      - name: _DstBlend
+        float: 0
+      - name: _GlossMapScale
+        float: 1
+      - name: _Glossiness
+        float: 0.5
+      - name: _GlossyReflections
+        float: 1
+      - name: _Metallic
+        float: 0
+      - name: _Mode
+        float: 0
+      - name: _OcclusionStrength
+        float: 1
+      - name: _Parallax
+        float: 0.02
+      - name: _SmoothnessTextureChannel
+        float: 0
+      - name: _SpecularHighlights
+        float: 1
+      - name: _SrcBlend
+        float: 1
+      - name: _UVSec
+        float: 0
+      - name: _ZWrite
+        float: 1
+      colors:
+      - name: _Color
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - name: _EmissionColor
+        color: {r: 0, g: 0, b: 0, a: 1}
+    outputDescList:
+    - outputName: diffuse
+      identifier: Diffuse
+      usageName: diffuse
+      channelStr: diffuse
+      label: Diffuse
+      usage: 0
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: any
+      identifier: Normal
+      usageName: any
+      channelStr: any
+      label: Normal
+      usage: 27
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    texturePackingList:
+    - targetName: diffuse
+      components:
+      - sourceName: diffuse
+        from: 0
+        to: 3
+    - targetName: any
+      components:
+      - sourceName: any
+        from: 0
+        to: 3
+    textureParameters:
+    - textureName: Biome_Dust_6 - diffuse
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Biome_Dust_6 - any
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList: []
+    inputTextureMap: []
+    targetSettingList:
+    - label: Default
+      bOverride: 0
+      bLockRatio: 1
+      textureWidth: 512
+      textureHeight: 512
+      textureFormatMode: 0
+      normalCompressed: 0
+      bGenerateOnLoad: 1
+    material: {fileID: 2100012, guid: bebd23504c9b381428bd3a3fc1f3ed31, type: 3}
+    generatedTextures:
+    - {fileID: 2800024, guid: bebd23504c9b381428bd3a3fc1f3ed31, type: 3}
+    - {fileID: 2800026, guid: bebd23504c9b381428bd3a3fc1f3ed31, type: 3}
+  - graphLabel: Biome_Dust_7
+    prototypeName: Biome_Dust
+    graphDescIndex: 0
+    generateAllOutputs: 1
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://Biome_Dust\" label=\"\" >\n  <presetinput
+      identifier=\"$outputsize\" uid=\"1079931018\" type=\"8\" value=\"9,9\" />\n
+      </sbspreset>\n"
+    shaderName: Standard
+    materialProperties:
+      shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+      shaderKeywords: _MAINTEX _UNKNOWN_ANY
+      lightmapFlags: 4
+      texEnvs:
+      - name: _BumpMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailAlbedoMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailMask
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailNormalMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _EmissionMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _MainTex
+        texture: {fileID: 2800028, guid: bebd23504c9b381428bd3a3fc1f3ed31, type: 3}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _MetallicGlossMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _OcclusionMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _ParallaxMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      floats:
+      - name: _BumpScale
+        float: 1
+      - name: _Cutoff
+        float: 0.5
+      - name: _DetailNormalMapScale
+        float: 1
+      - name: _DstBlend
+        float: 0
+      - name: _GlossMapScale
+        float: 1
+      - name: _Glossiness
+        float: 0.5
+      - name: _GlossyReflections
+        float: 1
+      - name: _Metallic
+        float: 0
+      - name: _Mode
+        float: 0
+      - name: _OcclusionStrength
+        float: 1
+      - name: _Parallax
+        float: 0.02
+      - name: _SmoothnessTextureChannel
+        float: 0
+      - name: _SpecularHighlights
+        float: 1
+      - name: _SrcBlend
+        float: 1
+      - name: _UVSec
+        float: 0
+      - name: _ZWrite
+        float: 1
+      colors:
+      - name: _Color
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - name: _EmissionColor
+        color: {r: 0, g: 0, b: 0, a: 1}
+    outputDescList:
+    - outputName: diffuse
+      identifier: Diffuse
+      usageName: diffuse
+      channelStr: diffuse
+      label: Diffuse
+      usage: 0
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: any
+      identifier: Normal
+      usageName: any
+      channelStr: any
+      label: Normal
+      usage: 27
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    texturePackingList:
+    - targetName: diffuse
+      components:
+      - sourceName: diffuse
+        from: 0
+        to: 3
+    - targetName: any
+      components:
+      - sourceName: any
+        from: 0
+        to: 3
+    textureParameters:
+    - textureName: Biome_Dust_7 - diffuse
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Biome_Dust_7 - any
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList: []
+    inputTextureMap: []
+    targetSettingList:
+    - label: Default
+      bOverride: 0
+      bLockRatio: 1
+      textureWidth: 512
+      textureHeight: 512
+      textureFormatMode: 0
+      normalCompressed: 0
+      bGenerateOnLoad: 1
+    material: {fileID: 2100014, guid: bebd23504c9b381428bd3a3fc1f3ed31, type: 3}
+    generatedTextures:
+    - {fileID: 2800028, guid: bebd23504c9b381428bd3a3fc1f3ed31, type: 3}
+    - {fileID: 2800030, guid: bebd23504c9b381428bd3a3fc1f3ed31, type: 3}

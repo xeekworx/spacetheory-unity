@@ -1,0 +1,1510 @@
+fileFormatVersion: 2
+guid: 1d981cdb25e6dab4dae478c003b89461
+ScriptedImporter:
+  fileIDToRecycleName:
+    2100000: Gas_Storm
+    2100002: Gas_Storm_1
+    2100004: Gas_Storm_2
+    2100006: Gas_Storm_3
+    2100008: Gas_Storm_4
+    2100010: Gas_Storm_5
+    2100012: Gas_Storm_6
+    2100014: Gas_Storm_7
+    2800000: Gas_Storm - any
+    2800002: Gas_Storm - Palette_Diffuse
+    2800004: Gas_Storm - BodyNormal
+    2800006: Gas_Storm - CapNormal
+    2800008: Gas_Storm_1 - any
+    2800010: Gas_Storm_1 - Palette_Diffuse
+    2800012: Gas_Storm_1 - BodyNormal
+    2800014: Gas_Storm_1 - CapNormal
+    2800016: Gas_Storm_2 - any
+    2800018: Gas_Storm_2 - Palette_Diffuse
+    2800020: Gas_Storm_2 - BodyNormal
+    2800022: Gas_Storm_2 - CapNormal
+    2800024: Gas_Storm_3 - any
+    2800026: Gas_Storm_3 - Palette_Diffuse
+    2800028: Gas_Storm_3 - BodyNormal
+    2800030: Gas_Storm_3 - CapNormal
+    2800032: Gas_Storm_4 - any
+    2800034: Gas_Storm_4 - Palette_Diffuse
+    2800036: Gas_Storm_4 - BodyNormal
+    2800038: Gas_Storm_4 - CapNormal
+    2800040: Gas_Storm_5 - any
+    2800042: Gas_Storm_5 - Palette_Diffuse
+    2800044: Gas_Storm_5 - BodyNormal
+    2800046: Gas_Storm_5 - CapNormal
+    2800048: Gas_Storm_6 - any
+    2800050: Gas_Storm_6 - Palette_Diffuse
+    2800052: Gas_Storm_6 - BodyNormal
+    2800054: Gas_Storm_6 - CapNormal
+    2800056: Gas_Storm_7 - any
+    2800058: Gas_Storm_7 - Palette_Diffuse
+    2800060: Gas_Storm_7 - BodyNormal
+    2800062: Gas_Storm_7 - CapNormal
+    11400000: sbsar
+    11400002: graph0
+    11400004: graph1
+    11400006: graph2
+    11400008: graph3
+    11400010: graph4
+    11400012: graph5
+    11400014: graph6
+    11400016: graph7
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 232528478, guid: 43a8bbf65be290d44ba52b94476242b9, type: 3}
+  version: 24
+  mGraphInstanceData:
+  - graphLabel: Gas_Storm
+    prototypeName: Gas_Storm
+    graphDescIndex: 0
+    generateAllOutputs: 1
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://Gas_Storm\" label=\"\" >\n  <presetinput identifier=\"$outputsize\"
+      uid=\"2123645762\" type=\"8\" value=\"11,11\" />\n  <presetinput identifier=\"$randomseed\"
+      uid=\"702960912\" type=\"4\" value=\"3182\" />\n  <presetinput identifier=\"Turbulence\"
+      uid=\"179974402\" type=\"0\" value=\"0.145838\" />\n  <presetinput identifier=\"Separation\"
+      uid=\"179976035\" type=\"0\" value=\"0.291264\" />\n  <presetinput identifier=\"Smoothness\"
+      uid=\"179972656\" type=\"0\" value=\"6.27753\" />\n  <presetinput identifier=\"Composition_Random_Seed\"
+      uid=\"179968651\" type=\"4\" value=\"203\" />\n  <presetinput identifier=\"Turbulence_Random_Seed\"
+      uid=\"179968941\" type=\"4\" value=\"36\" />\n  <presetinput identifier=\"Turbulence_Scale\"
+      uid=\"179968293\" type=\"4\" value=\"0\" />\n  <presetinput identifier=\"Turbulence_Disorder\"
+      uid=\"179967479\" type=\"0\" value=\"0.40279\" />\n  <presetinput identifier=\"Palette\"
+      uid=\"179922758\" type=\"4\" value=\"7\" />\n  <presetinput identifier=\"Detail\"
+      uid=\"179922174\" type=\"0\" value=\"0.0156512\" />\n  <presetinput identifier=\"Detail_Offset\"
+      uid=\"179921997\" type=\"0\" value=\"0.556388\" />\n  <presetinput identifier=\"Contrast\"
+      uid=\"179920072\" type=\"0\" value=\"-0.00932615\" />\n  <presetinput identifier=\"Hue\"
+      uid=\"179920089\" type=\"0\" value=\"0.490143\" />\n  <presetinput identifier=\"Saturation\"
+      uid=\"179920105\" type=\"0\" value=\"0.494855\" />\n  <presetinput identifier=\"Brightness\"
+      uid=\"179919945\" type=\"0\" value=\"0.514469\" />\n  <presetinput identifier=\"Storm_Squash\"
+      uid=\"180255456\" type=\"0\" value=\"0.28854\" />\n  <presetinput identifier=\"Storm_Noise\"
+      uid=\"188870703\" type=\"0\" value=\"0.330531\" />\n  <presetinput identifier=\"Storm_Scale\"
+      uid=\"188868656\" type=\"0\" value=\"0.0588539\" />\n </sbspreset>\n"
+    shaderName: Standard
+    materialProperties:
+      shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+      shaderKeywords: _UNKNOWN_ANY _UNKNOWN_BODYNORMAL _UNKNOWN_CAPNORMAL _UNKNOWN_PALETTE_DIFFUSE
+      lightmapFlags: 4
+      texEnvs:
+      - name: _BumpMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailAlbedoMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailMask
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailNormalMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _EmissionMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _MainTex
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _MetallicGlossMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _OcclusionMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _ParallaxMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      floats:
+      - name: _BumpScale
+        float: 1
+      - name: _Cutoff
+        float: 0.5
+      - name: _DetailNormalMapScale
+        float: 1
+      - name: _DstBlend
+        float: 0
+      - name: _GlossMapScale
+        float: 1
+      - name: _Glossiness
+        float: 0.5
+      - name: _GlossyReflections
+        float: 1
+      - name: _Metallic
+        float: 0
+      - name: _Mode
+        float: 0
+      - name: _OcclusionStrength
+        float: 1
+      - name: _Parallax
+        float: 0.02
+      - name: _SmoothnessTextureChannel
+        float: 0
+      - name: _SpecularHighlights
+        float: 1
+      - name: _SrcBlend
+        float: 1
+      - name: _UVSec
+        float: 0
+      - name: _ZWrite
+        float: 1
+      colors:
+      - name: _Color
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - name: _EmissionColor
+        color: {r: 0, g: 0, b: 0, a: 1}
+    outputDescList:
+    - outputName: any
+      identifier: Diffuse
+      usageName: any
+      channelStr: any
+      label: Diffuse
+      usage: 27
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: Palette_Diffuse
+      identifier: Palette_Diffuse
+      usageName: any
+      channelStr: any
+      label: Palette_Diffuse
+      usage: 27
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: BodyNormal
+      identifier: BodyNormal
+      usageName: any
+      channelStr: any
+      label: BodyNormal
+      usage: 27
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: CapNormal
+      identifier: CapNormal
+      usageName: any
+      channelStr: any
+      label: CapNormal
+      usage: 27
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    texturePackingList:
+    - targetName: any
+      components:
+      - sourceName: any
+        from: 0
+        to: 3
+    - targetName: Palette_Diffuse
+      components:
+      - sourceName: Palette_Diffuse
+        from: 0
+        to: 3
+    - targetName: BodyNormal
+      components:
+      - sourceName: BodyNormal
+        from: 0
+        to: 3
+    - targetName: CapNormal
+      components:
+      - sourceName: CapNormal
+        from: 0
+        to: 3
+    textureParameters:
+    - textureName: Gas_Storm - any
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Gas_Storm - Palette_Diffuse
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Gas_Storm - BodyNormal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Gas_Storm - CapNormal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList: []
+    inputTextureMap: []
+    targetSettingList:
+    - label: Default
+      bOverride: 0
+      bLockRatio: 1
+      textureWidth: 2048
+      textureHeight: 2048
+      textureFormatMode: 0
+      normalCompressed: 0
+      bGenerateOnLoad: 1
+    material: {fileID: 2100000, guid: 1d981cdb25e6dab4dae478c003b89461, type: 3}
+    generatedTextures:
+    - {fileID: 2800000, guid: 1d981cdb25e6dab4dae478c003b89461, type: 3}
+    - {fileID: 2800002, guid: 1d981cdb25e6dab4dae478c003b89461, type: 3}
+    - {fileID: 2800004, guid: 1d981cdb25e6dab4dae478c003b89461, type: 3}
+    - {fileID: 2800006, guid: 1d981cdb25e6dab4dae478c003b89461, type: 3}
+  - graphLabel: Gas_Storm_1
+    prototypeName: Gas_Storm
+    graphDescIndex: 0
+    generateAllOutputs: 1
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://Gas_Storm\" label=\"\" >\n  <presetinput identifier=\"$outputsize\"
+      uid=\"2123645762\" type=\"8\" value=\"11,11\" />\n </sbspreset>\n"
+    shaderName: Standard
+    materialProperties:
+      shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+      shaderKeywords: _UNKNOWN_ANY _UNKNOWN_BODYNORMAL _UNKNOWN_CAPNORMAL _UNKNOWN_PALETTE_DIFFUSE
+      lightmapFlags: 4
+      texEnvs:
+      - name: _BumpMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailAlbedoMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailMask
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailNormalMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _EmissionMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _MainTex
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _MetallicGlossMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _OcclusionMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _ParallaxMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      floats:
+      - name: _BumpScale
+        float: 1
+      - name: _Cutoff
+        float: 0.5
+      - name: _DetailNormalMapScale
+        float: 1
+      - name: _DstBlend
+        float: 0
+      - name: _GlossMapScale
+        float: 1
+      - name: _Glossiness
+        float: 0.5
+      - name: _GlossyReflections
+        float: 1
+      - name: _Metallic
+        float: 0
+      - name: _Mode
+        float: 0
+      - name: _OcclusionStrength
+        float: 1
+      - name: _Parallax
+        float: 0.02
+      - name: _SmoothnessTextureChannel
+        float: 0
+      - name: _SpecularHighlights
+        float: 1
+      - name: _SrcBlend
+        float: 1
+      - name: _UVSec
+        float: 0
+      - name: _ZWrite
+        float: 1
+      colors:
+      - name: _Color
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - name: _EmissionColor
+        color: {r: 0, g: 0, b: 0, a: 1}
+    outputDescList:
+    - outputName: any
+      identifier: Diffuse
+      usageName: any
+      channelStr: any
+      label: Diffuse
+      usage: 27
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: Palette_Diffuse
+      identifier: Palette_Diffuse
+      usageName: any
+      channelStr: any
+      label: Palette_Diffuse
+      usage: 27
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: BodyNormal
+      identifier: BodyNormal
+      usageName: any
+      channelStr: any
+      label: BodyNormal
+      usage: 27
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: CapNormal
+      identifier: CapNormal
+      usageName: any
+      channelStr: any
+      label: CapNormal
+      usage: 27
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    texturePackingList:
+    - targetName: any
+      components:
+      - sourceName: any
+        from: 0
+        to: 3
+    - targetName: Palette_Diffuse
+      components:
+      - sourceName: Palette_Diffuse
+        from: 0
+        to: 3
+    - targetName: BodyNormal
+      components:
+      - sourceName: BodyNormal
+        from: 0
+        to: 3
+    - targetName: CapNormal
+      components:
+      - sourceName: CapNormal
+        from: 0
+        to: 3
+    textureParameters:
+    - textureName: Gas_Storm_1 - any
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Gas_Storm_1 - Palette_Diffuse
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Gas_Storm_1 - BodyNormal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Gas_Storm_1 - CapNormal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList: []
+    inputTextureMap: []
+    targetSettingList:
+    - label: Default
+      bOverride: 0
+      bLockRatio: 1
+      textureWidth: 2048
+      textureHeight: 2048
+      textureFormatMode: 0
+      normalCompressed: 0
+      bGenerateOnLoad: 1
+    material: {fileID: 2100002, guid: 1d981cdb25e6dab4dae478c003b89461, type: 3}
+    generatedTextures:
+    - {fileID: 2800008, guid: 1d981cdb25e6dab4dae478c003b89461, type: 3}
+    - {fileID: 2800010, guid: 1d981cdb25e6dab4dae478c003b89461, type: 3}
+    - {fileID: 2800012, guid: 1d981cdb25e6dab4dae478c003b89461, type: 3}
+    - {fileID: 2800014, guid: 1d981cdb25e6dab4dae478c003b89461, type: 3}
+  - graphLabel: Gas_Storm_2
+    prototypeName: Gas_Storm
+    graphDescIndex: 0
+    generateAllOutputs: 1
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://Gas_Storm\" label=\"\" >\n  <presetinput identifier=\"$outputsize\"
+      uid=\"2123645762\" type=\"8\" value=\"9,9\" />\n </sbspreset>\n"
+    shaderName: Standard
+    materialProperties:
+      shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+      shaderKeywords: _UNKNOWN_ANY _UNKNOWN_BODYNORMAL _UNKNOWN_CAPNORMAL _UNKNOWN_PALETTE_DIFFUSE
+      lightmapFlags: 4
+      texEnvs:
+      - name: _BumpMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailAlbedoMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailMask
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailNormalMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _EmissionMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _MainTex
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _MetallicGlossMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _OcclusionMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _ParallaxMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      floats:
+      - name: _BumpScale
+        float: 1
+      - name: _Cutoff
+        float: 0.5
+      - name: _DetailNormalMapScale
+        float: 1
+      - name: _DstBlend
+        float: 0
+      - name: _GlossMapScale
+        float: 1
+      - name: _Glossiness
+        float: 0.5
+      - name: _GlossyReflections
+        float: 1
+      - name: _Metallic
+        float: 0
+      - name: _Mode
+        float: 0
+      - name: _OcclusionStrength
+        float: 1
+      - name: _Parallax
+        float: 0.02
+      - name: _SmoothnessTextureChannel
+        float: 0
+      - name: _SpecularHighlights
+        float: 1
+      - name: _SrcBlend
+        float: 1
+      - name: _UVSec
+        float: 0
+      - name: _ZWrite
+        float: 1
+      colors:
+      - name: _Color
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - name: _EmissionColor
+        color: {r: 0, g: 0, b: 0, a: 1}
+    outputDescList:
+    - outputName: any
+      identifier: Diffuse
+      usageName: any
+      channelStr: any
+      label: Diffuse
+      usage: 27
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: Palette_Diffuse
+      identifier: Palette_Diffuse
+      usageName: any
+      channelStr: any
+      label: Palette_Diffuse
+      usage: 27
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: BodyNormal
+      identifier: BodyNormal
+      usageName: any
+      channelStr: any
+      label: BodyNormal
+      usage: 27
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: CapNormal
+      identifier: CapNormal
+      usageName: any
+      channelStr: any
+      label: CapNormal
+      usage: 27
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    texturePackingList:
+    - targetName: any
+      components:
+      - sourceName: any
+        from: 0
+        to: 3
+    - targetName: Palette_Diffuse
+      components:
+      - sourceName: Palette_Diffuse
+        from: 0
+        to: 3
+    - targetName: BodyNormal
+      components:
+      - sourceName: BodyNormal
+        from: 0
+        to: 3
+    - targetName: CapNormal
+      components:
+      - sourceName: CapNormal
+        from: 0
+        to: 3
+    textureParameters:
+    - textureName: Gas_Storm_2 - any
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Gas_Storm_2 - Palette_Diffuse
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Gas_Storm_2 - BodyNormal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Gas_Storm_2 - CapNormal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList: []
+    inputTextureMap: []
+    targetSettingList:
+    - label: Default
+      bOverride: 0
+      bLockRatio: 1
+      textureWidth: 512
+      textureHeight: 512
+      textureFormatMode: 0
+      normalCompressed: 0
+      bGenerateOnLoad: 1
+    material: {fileID: 2100004, guid: 1d981cdb25e6dab4dae478c003b89461, type: 3}
+    generatedTextures:
+    - {fileID: 2800016, guid: 1d981cdb25e6dab4dae478c003b89461, type: 3}
+    - {fileID: 2800018, guid: 1d981cdb25e6dab4dae478c003b89461, type: 3}
+    - {fileID: 2800020, guid: 1d981cdb25e6dab4dae478c003b89461, type: 3}
+    - {fileID: 2800022, guid: 1d981cdb25e6dab4dae478c003b89461, type: 3}
+  - graphLabel: Gas_Storm_3
+    prototypeName: Gas_Storm
+    graphDescIndex: 0
+    generateAllOutputs: 1
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://Gas_Storm\" label=\"\" >\n  <presetinput identifier=\"$outputsize\"
+      uid=\"2123645762\" type=\"8\" value=\"9,9\" />\n </sbspreset>\n"
+    shaderName: Standard
+    materialProperties:
+      shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+      shaderKeywords: _UNKNOWN_ANY _UNKNOWN_BODYNORMAL _UNKNOWN_CAPNORMAL _UNKNOWN_PALETTE_DIFFUSE
+      lightmapFlags: 4
+      texEnvs:
+      - name: _BumpMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailAlbedoMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailMask
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailNormalMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _EmissionMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _MainTex
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _MetallicGlossMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _OcclusionMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _ParallaxMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      floats:
+      - name: _BumpScale
+        float: 1
+      - name: _Cutoff
+        float: 0.5
+      - name: _DetailNormalMapScale
+        float: 1
+      - name: _DstBlend
+        float: 0
+      - name: _GlossMapScale
+        float: 1
+      - name: _Glossiness
+        float: 0.5
+      - name: _GlossyReflections
+        float: 1
+      - name: _Metallic
+        float: 0
+      - name: _Mode
+        float: 0
+      - name: _OcclusionStrength
+        float: 1
+      - name: _Parallax
+        float: 0.02
+      - name: _SmoothnessTextureChannel
+        float: 0
+      - name: _SpecularHighlights
+        float: 1
+      - name: _SrcBlend
+        float: 1
+      - name: _UVSec
+        float: 0
+      - name: _ZWrite
+        float: 1
+      colors:
+      - name: _Color
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - name: _EmissionColor
+        color: {r: 0, g: 0, b: 0, a: 1}
+    outputDescList:
+    - outputName: any
+      identifier: Diffuse
+      usageName: any
+      channelStr: any
+      label: Diffuse
+      usage: 27
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: Palette_Diffuse
+      identifier: Palette_Diffuse
+      usageName: any
+      channelStr: any
+      label: Palette_Diffuse
+      usage: 27
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: BodyNormal
+      identifier: BodyNormal
+      usageName: any
+      channelStr: any
+      label: BodyNormal
+      usage: 27
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: CapNormal
+      identifier: CapNormal
+      usageName: any
+      channelStr: any
+      label: CapNormal
+      usage: 27
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    texturePackingList:
+    - targetName: any
+      components:
+      - sourceName: any
+        from: 0
+        to: 3
+    - targetName: Palette_Diffuse
+      components:
+      - sourceName: Palette_Diffuse
+        from: 0
+        to: 3
+    - targetName: BodyNormal
+      components:
+      - sourceName: BodyNormal
+        from: 0
+        to: 3
+    - targetName: CapNormal
+      components:
+      - sourceName: CapNormal
+        from: 0
+        to: 3
+    textureParameters:
+    - textureName: Gas_Storm_3 - any
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Gas_Storm_3 - Palette_Diffuse
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Gas_Storm_3 - BodyNormal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Gas_Storm_3 - CapNormal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList: []
+    inputTextureMap: []
+    targetSettingList:
+    - label: Default
+      bOverride: 0
+      bLockRatio: 1
+      textureWidth: 512
+      textureHeight: 512
+      textureFormatMode: 0
+      normalCompressed: 0
+      bGenerateOnLoad: 1
+    material: {fileID: 2100006, guid: 1d981cdb25e6dab4dae478c003b89461, type: 3}
+    generatedTextures:
+    - {fileID: 2800024, guid: 1d981cdb25e6dab4dae478c003b89461, type: 3}
+    - {fileID: 2800026, guid: 1d981cdb25e6dab4dae478c003b89461, type: 3}
+    - {fileID: 2800028, guid: 1d981cdb25e6dab4dae478c003b89461, type: 3}
+    - {fileID: 2800030, guid: 1d981cdb25e6dab4dae478c003b89461, type: 3}
+  - graphLabel: Gas_Storm_4
+    prototypeName: Gas_Storm
+    graphDescIndex: 0
+    generateAllOutputs: 1
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://Gas_Storm\" label=\"\" >\n  <presetinput identifier=\"$outputsize\"
+      uid=\"2123645762\" type=\"8\" value=\"9,9\" />\n </sbspreset>\n"
+    shaderName: Standard
+    materialProperties:
+      shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+      shaderKeywords: _UNKNOWN_ANY _UNKNOWN_BODYNORMAL _UNKNOWN_CAPNORMAL _UNKNOWN_PALETTE_DIFFUSE
+      lightmapFlags: 4
+      texEnvs:
+      - name: _BumpMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailAlbedoMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailMask
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailNormalMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _EmissionMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _MainTex
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _MetallicGlossMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _OcclusionMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _ParallaxMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      floats:
+      - name: _BumpScale
+        float: 1
+      - name: _Cutoff
+        float: 0.5
+      - name: _DetailNormalMapScale
+        float: 1
+      - name: _DstBlend
+        float: 0
+      - name: _GlossMapScale
+        float: 1
+      - name: _Glossiness
+        float: 0.5
+      - name: _GlossyReflections
+        float: 1
+      - name: _Metallic
+        float: 0
+      - name: _Mode
+        float: 0
+      - name: _OcclusionStrength
+        float: 1
+      - name: _Parallax
+        float: 0.02
+      - name: _SmoothnessTextureChannel
+        float: 0
+      - name: _SpecularHighlights
+        float: 1
+      - name: _SrcBlend
+        float: 1
+      - name: _UVSec
+        float: 0
+      - name: _ZWrite
+        float: 1
+      colors:
+      - name: _Color
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - name: _EmissionColor
+        color: {r: 0, g: 0, b: 0, a: 1}
+    outputDescList:
+    - outputName: any
+      identifier: Diffuse
+      usageName: any
+      channelStr: any
+      label: Diffuse
+      usage: 27
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: Palette_Diffuse
+      identifier: Palette_Diffuse
+      usageName: any
+      channelStr: any
+      label: Palette_Diffuse
+      usage: 27
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: BodyNormal
+      identifier: BodyNormal
+      usageName: any
+      channelStr: any
+      label: BodyNormal
+      usage: 27
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: CapNormal
+      identifier: CapNormal
+      usageName: any
+      channelStr: any
+      label: CapNormal
+      usage: 27
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    texturePackingList:
+    - targetName: any
+      components:
+      - sourceName: any
+        from: 0
+        to: 3
+    - targetName: Palette_Diffuse
+      components:
+      - sourceName: Palette_Diffuse
+        from: 0
+        to: 3
+    - targetName: BodyNormal
+      components:
+      - sourceName: BodyNormal
+        from: 0
+        to: 3
+    - targetName: CapNormal
+      components:
+      - sourceName: CapNormal
+        from: 0
+        to: 3
+    textureParameters:
+    - textureName: Gas_Storm_4 - any
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Gas_Storm_4 - Palette_Diffuse
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Gas_Storm_4 - BodyNormal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Gas_Storm_4 - CapNormal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList: []
+    inputTextureMap: []
+    targetSettingList:
+    - label: Default
+      bOverride: 0
+      bLockRatio: 1
+      textureWidth: 512
+      textureHeight: 512
+      textureFormatMode: 0
+      normalCompressed: 0
+      bGenerateOnLoad: 1
+    material: {fileID: 2100008, guid: 1d981cdb25e6dab4dae478c003b89461, type: 3}
+    generatedTextures:
+    - {fileID: 2800032, guid: 1d981cdb25e6dab4dae478c003b89461, type: 3}
+    - {fileID: 2800034, guid: 1d981cdb25e6dab4dae478c003b89461, type: 3}
+    - {fileID: 2800036, guid: 1d981cdb25e6dab4dae478c003b89461, type: 3}
+    - {fileID: 2800038, guid: 1d981cdb25e6dab4dae478c003b89461, type: 3}
+  - graphLabel: Gas_Storm_5
+    prototypeName: Gas_Storm
+    graphDescIndex: 0
+    generateAllOutputs: 1
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://Gas_Storm\" label=\"\" >\n  <presetinput identifier=\"$outputsize\"
+      uid=\"2123645762\" type=\"8\" value=\"9,9\" />\n </sbspreset>\n"
+    shaderName: Standard
+    materialProperties:
+      shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+      shaderKeywords: _UNKNOWN_ANY _UNKNOWN_BODYNORMAL _UNKNOWN_CAPNORMAL _UNKNOWN_PALETTE_DIFFUSE
+      lightmapFlags: 4
+      texEnvs:
+      - name: _BumpMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailAlbedoMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailMask
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailNormalMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _EmissionMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _MainTex
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _MetallicGlossMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _OcclusionMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _ParallaxMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      floats:
+      - name: _BumpScale
+        float: 1
+      - name: _Cutoff
+        float: 0.5
+      - name: _DetailNormalMapScale
+        float: 1
+      - name: _DstBlend
+        float: 0
+      - name: _GlossMapScale
+        float: 1
+      - name: _Glossiness
+        float: 0.5
+      - name: _GlossyReflections
+        float: 1
+      - name: _Metallic
+        float: 0
+      - name: _Mode
+        float: 0
+      - name: _OcclusionStrength
+        float: 1
+      - name: _Parallax
+        float: 0.02
+      - name: _SmoothnessTextureChannel
+        float: 0
+      - name: _SpecularHighlights
+        float: 1
+      - name: _SrcBlend
+        float: 1
+      - name: _UVSec
+        float: 0
+      - name: _ZWrite
+        float: 1
+      colors:
+      - name: _Color
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - name: _EmissionColor
+        color: {r: 0, g: 0, b: 0, a: 1}
+    outputDescList:
+    - outputName: any
+      identifier: Diffuse
+      usageName: any
+      channelStr: any
+      label: Diffuse
+      usage: 27
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: Palette_Diffuse
+      identifier: Palette_Diffuse
+      usageName: any
+      channelStr: any
+      label: Palette_Diffuse
+      usage: 27
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: BodyNormal
+      identifier: BodyNormal
+      usageName: any
+      channelStr: any
+      label: BodyNormal
+      usage: 27
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: CapNormal
+      identifier: CapNormal
+      usageName: any
+      channelStr: any
+      label: CapNormal
+      usage: 27
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    texturePackingList:
+    - targetName: any
+      components:
+      - sourceName: any
+        from: 0
+        to: 3
+    - targetName: Palette_Diffuse
+      components:
+      - sourceName: Palette_Diffuse
+        from: 0
+        to: 3
+    - targetName: BodyNormal
+      components:
+      - sourceName: BodyNormal
+        from: 0
+        to: 3
+    - targetName: CapNormal
+      components:
+      - sourceName: CapNormal
+        from: 0
+        to: 3
+    textureParameters:
+    - textureName: Gas_Storm_5 - any
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Gas_Storm_5 - Palette_Diffuse
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Gas_Storm_5 - BodyNormal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Gas_Storm_5 - CapNormal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList: []
+    inputTextureMap: []
+    targetSettingList:
+    - label: Default
+      bOverride: 0
+      bLockRatio: 1
+      textureWidth: 512
+      textureHeight: 512
+      textureFormatMode: 0
+      normalCompressed: 0
+      bGenerateOnLoad: 1
+    material: {fileID: 2100010, guid: 1d981cdb25e6dab4dae478c003b89461, type: 3}
+    generatedTextures:
+    - {fileID: 2800040, guid: 1d981cdb25e6dab4dae478c003b89461, type: 3}
+    - {fileID: 2800042, guid: 1d981cdb25e6dab4dae478c003b89461, type: 3}
+    - {fileID: 2800044, guid: 1d981cdb25e6dab4dae478c003b89461, type: 3}
+    - {fileID: 2800046, guid: 1d981cdb25e6dab4dae478c003b89461, type: 3}
+  - graphLabel: Gas_Storm_6
+    prototypeName: Gas_Storm
+    graphDescIndex: 0
+    generateAllOutputs: 1
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://Gas_Storm\" label=\"\" >\n  <presetinput identifier=\"$outputsize\"
+      uid=\"2123645762\" type=\"8\" value=\"9,9\" />\n </sbspreset>\n"
+    shaderName: Standard
+    materialProperties:
+      shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+      shaderKeywords: _UNKNOWN_ANY _UNKNOWN_BODYNORMAL _UNKNOWN_CAPNORMAL _UNKNOWN_PALETTE_DIFFUSE
+      lightmapFlags: 4
+      texEnvs:
+      - name: _BumpMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailAlbedoMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailMask
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailNormalMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _EmissionMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _MainTex
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _MetallicGlossMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _OcclusionMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _ParallaxMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      floats:
+      - name: _BumpScale
+        float: 1
+      - name: _Cutoff
+        float: 0.5
+      - name: _DetailNormalMapScale
+        float: 1
+      - name: _DstBlend
+        float: 0
+      - name: _GlossMapScale
+        float: 1
+      - name: _Glossiness
+        float: 0.5
+      - name: _GlossyReflections
+        float: 1
+      - name: _Metallic
+        float: 0
+      - name: _Mode
+        float: 0
+      - name: _OcclusionStrength
+        float: 1
+      - name: _Parallax
+        float: 0.02
+      - name: _SmoothnessTextureChannel
+        float: 0
+      - name: _SpecularHighlights
+        float: 1
+      - name: _SrcBlend
+        float: 1
+      - name: _UVSec
+        float: 0
+      - name: _ZWrite
+        float: 1
+      colors:
+      - name: _Color
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - name: _EmissionColor
+        color: {r: 0, g: 0, b: 0, a: 1}
+    outputDescList:
+    - outputName: any
+      identifier: Diffuse
+      usageName: any
+      channelStr: any
+      label: Diffuse
+      usage: 27
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: Palette_Diffuse
+      identifier: Palette_Diffuse
+      usageName: any
+      channelStr: any
+      label: Palette_Diffuse
+      usage: 27
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: BodyNormal
+      identifier: BodyNormal
+      usageName: any
+      channelStr: any
+      label: BodyNormal
+      usage: 27
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: CapNormal
+      identifier: CapNormal
+      usageName: any
+      channelStr: any
+      label: CapNormal
+      usage: 27
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    texturePackingList:
+    - targetName: any
+      components:
+      - sourceName: any
+        from: 0
+        to: 3
+    - targetName: Palette_Diffuse
+      components:
+      - sourceName: Palette_Diffuse
+        from: 0
+        to: 3
+    - targetName: BodyNormal
+      components:
+      - sourceName: BodyNormal
+        from: 0
+        to: 3
+    - targetName: CapNormal
+      components:
+      - sourceName: CapNormal
+        from: 0
+        to: 3
+    textureParameters:
+    - textureName: Gas_Storm_6 - any
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Gas_Storm_6 - Palette_Diffuse
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Gas_Storm_6 - BodyNormal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Gas_Storm_6 - CapNormal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList: []
+    inputTextureMap: []
+    targetSettingList:
+    - label: Default
+      bOverride: 0
+      bLockRatio: 1
+      textureWidth: 512
+      textureHeight: 512
+      textureFormatMode: 0
+      normalCompressed: 0
+      bGenerateOnLoad: 1
+    material: {fileID: 2100012, guid: 1d981cdb25e6dab4dae478c003b89461, type: 3}
+    generatedTextures:
+    - {fileID: 2800048, guid: 1d981cdb25e6dab4dae478c003b89461, type: 3}
+    - {fileID: 2800050, guid: 1d981cdb25e6dab4dae478c003b89461, type: 3}
+    - {fileID: 2800052, guid: 1d981cdb25e6dab4dae478c003b89461, type: 3}
+    - {fileID: 2800054, guid: 1d981cdb25e6dab4dae478c003b89461, type: 3}
+  - graphLabel: Gas_Storm_7
+    prototypeName: Gas_Storm
+    graphDescIndex: 0
+    generateAllOutputs: 1
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://Gas_Storm\" label=\"\" >\n  <presetinput identifier=\"$outputsize\"
+      uid=\"2123645762\" type=\"8\" value=\"9,9\" />\n </sbspreset>\n"
+    shaderName: Standard
+    materialProperties:
+      shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+      shaderKeywords: _UNKNOWN_ANY _UNKNOWN_BODYNORMAL _UNKNOWN_CAPNORMAL _UNKNOWN_PALETTE_DIFFUSE
+      lightmapFlags: 4
+      texEnvs:
+      - name: _BumpMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailAlbedoMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailMask
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailNormalMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _EmissionMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _MainTex
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _MetallicGlossMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _OcclusionMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _ParallaxMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      floats:
+      - name: _BumpScale
+        float: 1
+      - name: _Cutoff
+        float: 0.5
+      - name: _DetailNormalMapScale
+        float: 1
+      - name: _DstBlend
+        float: 0
+      - name: _GlossMapScale
+        float: 1
+      - name: _Glossiness
+        float: 0.5
+      - name: _GlossyReflections
+        float: 1
+      - name: _Metallic
+        float: 0
+      - name: _Mode
+        float: 0
+      - name: _OcclusionStrength
+        float: 1
+      - name: _Parallax
+        float: 0.02
+      - name: _SmoothnessTextureChannel
+        float: 0
+      - name: _SpecularHighlights
+        float: 1
+      - name: _SrcBlend
+        float: 1
+      - name: _UVSec
+        float: 0
+      - name: _ZWrite
+        float: 1
+      colors:
+      - name: _Color
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - name: _EmissionColor
+        color: {r: 0, g: 0, b: 0, a: 1}
+    outputDescList:
+    - outputName: any
+      identifier: Diffuse
+      usageName: any
+      channelStr: any
+      label: Diffuse
+      usage: 27
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: Palette_Diffuse
+      identifier: Palette_Diffuse
+      usageName: any
+      channelStr: any
+      label: Palette_Diffuse
+      usage: 27
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: BodyNormal
+      identifier: BodyNormal
+      usageName: any
+      channelStr: any
+      label: BodyNormal
+      usage: 27
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: CapNormal
+      identifier: CapNormal
+      usageName: any
+      channelStr: any
+      label: CapNormal
+      usage: 27
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    texturePackingList:
+    - targetName: any
+      components:
+      - sourceName: any
+        from: 0
+        to: 3
+    - targetName: Palette_Diffuse
+      components:
+      - sourceName: Palette_Diffuse
+        from: 0
+        to: 3
+    - targetName: BodyNormal
+      components:
+      - sourceName: BodyNormal
+        from: 0
+        to: 3
+    - targetName: CapNormal
+      components:
+      - sourceName: CapNormal
+        from: 0
+        to: 3
+    textureParameters:
+    - textureName: Gas_Storm_7 - any
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Gas_Storm_7 - Palette_Diffuse
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Gas_Storm_7 - BodyNormal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Gas_Storm_7 - CapNormal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList: []
+    inputTextureMap: []
+    targetSettingList:
+    - label: Default
+      bOverride: 0
+      bLockRatio: 1
+      textureWidth: 512
+      textureHeight: 512
+      textureFormatMode: 0
+      normalCompressed: 0
+      bGenerateOnLoad: 1
+    material: {fileID: 2100014, guid: 1d981cdb25e6dab4dae478c003b89461, type: 3}
+    generatedTextures:
+    - {fileID: 2800056, guid: 1d981cdb25e6dab4dae478c003b89461, type: 3}
+    - {fileID: 2800058, guid: 1d981cdb25e6dab4dae478c003b89461, type: 3}
+    - {fileID: 2800060, guid: 1d981cdb25e6dab4dae478c003b89461, type: 3}
+    - {fileID: 2800062, guid: 1d981cdb25e6dab4dae478c003b89461, type: 3}

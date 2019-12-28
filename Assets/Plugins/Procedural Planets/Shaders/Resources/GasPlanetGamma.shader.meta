@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 37d8d1772158fc745ad87d602c0984c5
+timeCreated: 1533289527
+licenseType: Store
+ShaderImporter:
+  defaultTextures:
+  - _PaletteLookup: {fileID: -1426683083, guid: e9f528750fe2b4aa1a0fe43669106046,
+      type: 3}
+  - _BodyTexture: {fileID: -1426683083, guid: e9f528750fe2b4aa1a0fe43669106046, type: 3}
+  - _CapTexture: {fileID: -1426683083, guid: e9f528750fe2b4aa1a0fe43669106046, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
