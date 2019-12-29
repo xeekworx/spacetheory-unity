@@ -545,9 +545,7 @@ namespace Substance.Platform
             cppShutdownSubstanceDelegate function = DLLHelpers.GetFunction(
                 myName, typeof(cppShutdownSubstanceDelegate)) as cppShutdownSubstanceDelegate;
 
-            int result = 0;
-            try { result = (int)function.Invoke(); }
-            catch {}
+            int result = (int)function?.Invoke();
 
             DLLHelpers.UnloadDLL();
 
@@ -892,8 +890,8 @@ namespace Substance.Platform
                 myName, typeof(cppProcessQueuedOutputsDelegate)) as cppProcessQueuedOutputsDelegate;
 
             // This is crashing intermittently and often:
-            try { return (int)function.Invoke(); }
-            catch { return 0; }
+            //return (int)function?.Invoke();
+            return 0;
         }
 #else
         [DllImport(attributeValue)]
